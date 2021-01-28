@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="server.php" method="POST">
+        <fieldset>
+            <legend>Register Form</legend>
+            <label>Username :</label>
+            <input type="text" name="username" id="username" maxlength="20"> <br>
+
+            <lebel>Password :</lebel>
+            <input type="password" name="password" id="password"> <br>
+
+            <label>First Name :</label>
+            <input type="text" name="fname" id="fname"> <br>
+
+            <label>Last Name :</label>
+            <input type="text" name="lname" id="lname"> <br>
+
+            <label>Gender :</label>
+            <input type="radio" name="female" id="female" value="female"> Female
+            <input type="radio" name="male" id="male" value="male"> Male <br>
+
+            <lebel>Skill :</lebel>
+            <input type="checkbox" name="programing" id="programing" value="programing"> programing
+            <input type="checkbox" name="tester" id="tester" value="tester"> Tester <br>
+
+            <label>Skill :</label>
+            <select name="dropdown" id="dropdown">
+                <option value="java">JAVA</option>
+                <option value="css">CSS3</option>
+            </select> <br>
+
+            <label>BirthDate</label>
+            <input type="datetime-local" name="" id=""> <br>
+
+            <label>Upload file: </label>
+            <input type="file" name="file" id=""> <br>
+
+            <input type="reset" value="reset">
+
+            <input type="submit" value="login">
+        </fieldset>
+    </form>
+</body>
+
+</html>
